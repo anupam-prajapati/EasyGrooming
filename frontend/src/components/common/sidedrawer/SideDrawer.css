@@ -1,19 +1,25 @@
-
-#offcanvas {
-    width: 19%;
-    background-color: #4CAF50;
-}
-
-#nav-item {
-    display: flex;
-    align-items: start;
-}
-
-#nav-item-name {
+.offcanvas {
+    background: linear-gradient(to bottom, #fb923c, #ec4899);
     color: white;
-}
-
-#nav-item-name:hover {
-    background-color: white;
-    color: black;
-}
+    width: 250px;
+  }
+  
+  .offcanvas-header .btn-close {
+    filter: invert(1);
+  }
+  
+  .nav-link {
+    color: white;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+  }
+  
+  .nav-item {
+    padding: 10px 20px;
+  }
+  

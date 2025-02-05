@@ -3,7 +3,7 @@ import './Appointment.css'
 const Appointment = ({ appointment }) => {
     return (
         <div className="appointment d-container border m-5 col-md-8 border-1 border-secondary">
-            <h5 className="m-3 text-success">Appointment :)</h5>
+            <h5 className="m-3 text-success">Appointment :</h5>
 
             <div className='ms-5'>
                 <div className='d-flex'>

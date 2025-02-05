@@ -8,6 +8,8 @@ import BarberRegister from "../../../components/barber/barberRegister/BarberRegi
             <center>
                 <BarberRegister />
             </center>
+
+
         </div>
     );
  }

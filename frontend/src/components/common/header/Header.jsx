@@ -5,7 +5,7 @@ import { FaBars } from 'react-icons/fa';
 const Header = ({ role, toggleDrawer }) => {
   const menuItems = {
     customer: ['My Profile', 'My Appointments', 'Notifications', 'Feedback', 'Contact Us'],
-    vendor: ['Dashboard', 'Services', 'Appointments', 'Earnings'],
+    barber: ['Dashboard', 'Services', 'Appointments', 'Earnings'],
     admin: ['Dashboard', 'User Management', 'Reports', 'Settings'],
   };
 
@@ -16,8 +16,8 @@ const Header = ({ role, toggleDrawer }) => {
         <button className="menu-btn" onClick={toggleDrawer} data-bs-toggle="offcanvas" data-bs-target="#offcanvas">
           <FaBars />
         </button>
-
-        <div className="logo">E - Saloon</div>
+        {/* `\barber\{item}` */}
+        <div className="logo">EasyGrooming</div>
         <nav className="d-none d-md-block">
           <ul className="nav-list">
             {menuItems[role]?.map((item, index) => (
